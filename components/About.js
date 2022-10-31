@@ -47,7 +47,7 @@ class About extends Component {
 
     return (
       <div className="container">
-        <div className="header">Todo App</div>
+        <div className="header">Add Tasks</div>
         {notes}
         <div className="button" onClick={this.addNote.bind(this)}>+</div>
         <input placeholder="Add Tasks" type="text" className="input"
