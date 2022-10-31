@@ -50,7 +50,7 @@ class About extends Component {
         <div className="header">Todo App</div>
         {notes}
         <div className="button" onClick={this.addNote.bind(this)}>+</div>
-        <input placeholder="Enter Notes" type="text" className="input"
+        <input placeholder="Add Tasks" type="text" className="input"
         ref={((input) => {this.textInput = input})}
         value={this.state.noteText}
         onChange={noteText => this.updateNoteText(noteText)}
